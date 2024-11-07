@@ -4,7 +4,7 @@
 function lorem($data_type, $length)
 {
     $allowed_data_type = ["p", "w", "c"];
-    $text_file = "./lorem.txt";
+    $text_file = __DIR__."/lorem.txt";
     $lorem_text = "";
     $data_type = strtolower($data_type);
     
